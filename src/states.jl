@@ -23,6 +23,18 @@ function to_vector(ρ::MPS)
     return reshape(M, 2^(length(tensor_inds)))
 end
 
+function to_vector(ρ::ITensor)
+    tensor_inds = inds(ρ)
+    permutation = vcat(reverse(tensor_inds))
+
+    M = Array{ComplexF64,length(tensor_inds)}(ρ, permutation)
+
+    return reshape(M, 2^(length(tensor_inds)))
+end
+
+
+
+
 
 import Base: /
 import ITensorMPS: truncate!

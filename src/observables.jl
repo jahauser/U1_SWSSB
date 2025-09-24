@@ -58,6 +58,53 @@ function entropy(state::DiagonalState, sites::AbstractVector, samples::Int; cuto
     return entropy1/samples, entropy2/samples - (entropy1/samples)^2
 end
 
+function entropy(ρ::AbstractVector)
+    return sum([real(val) > 0.0 ? -val * log(val) : 0.0 for val in ρ])
+end
+
+function reduced(state::DiagonalState, i::Int, j::Int)
+    ψ = state.mps
+    sites = siteinds(ψ)
+
+    if i > 1
+        left = ITensor([1, 1], sites[1]) * ψ[1]
+    else
+        left = ITensor(1)
+    end
+    for pos in 2:i-1
+        left = left * ITensor([1, 1], sites[pos]) * ψ[pos]
+    end
+
+    if j < length(sites)
+        right = ITensor([1, 1], sites[end]) * ψ[end]
+    else
+        right = ITensor(1)
+    end
+    for pos in length(sites)-1:-1:j+1
+        right = right * ITensor([1, 1], sites[pos]) * ψ[pos]
+    end
+
+    return to_vector(left * contract(ψ[i:j]) * right)
+end
+
+function reduced(state::AbstractVector, sites::AbstractVector{Int})
+    L = Int(log2(length(state)))
+
+    sites = [L-site+1 for site in sites]  # Reverse order for ITensors.jl
+
+    # Convert state vector to multidimensional array
+    state_tensor = reshape(state, fill(2, L)...)
+    
+    # Get complement of sites
+    other_sites = setdiff(1:L, sites)
+    
+    # Sum over all other sites
+    result = dropdims(sum(state_tensor, dims=other_sites), dims=Tuple(other_sites))
+    
+    # Convert back to vector
+    return vec(result)
+end
+
 function CMI(state::DiagonalState, A::AbstractVector, B::AbstractVector, C::AbstractVector, samples::Int; cutoff=1E-8, maxdim=200)
     S_B, S2_B = entropy(state, B, samples; cutoff=cutoff, maxdim=maxdim)
     S_AB, S2_AB = entropy(state, vcat(A,B), samples; cutoff=cutoff, maxdim=maxdim)
@@ -67,6 +114,17 @@ function CMI(state::DiagonalState, A::AbstractVector, B::AbstractVector, C::Abst
     CMI = S_AB + S_BC - S_B - S_ABC
 
     return CMI, S2_AB + S2_BC + S2_B + S2_ABC
+end
+
+function exact_CMI(state::DiagonalState, i::Int, j::Int)
+    ρABC = reduced(state, i, j)
+    ρAB = reduced(ρABC, 1:j-i)
+    ρBC = reduced(ρABC, 2:j-i+1)
+    ρB = reduced(ρABC, 2:j-i)
+
+    # println("SAB ", entropy(ρAB), " SBC ", entropy(ρBC), " SB ", entropy(ρB), " SABC ", entropy(ρABC))
+
+    return entropy(ρAB) + entropy(ρBC) - entropy(ρB) - entropy(ρABC)
 end
 
 function vector_CMI(ρ::AbstractVector, i::Int)
@@ -81,5 +139,8 @@ function vector_CMI(ρ::AbstractVector, i::Int)
     SAB = sum([real(val) > 0.0 ? -val * log(val) : 0.0 for val in ρAB])
     SBC = sum([real(val) > 0.0 ? -val * log(val) : 0.0 for val in ρBC])
     SB = sum([real(val) > 0.0 ? -val * log(val) : 0.0 for val in ρB])
+
+    # println("SAB ", SAB, " SBC ", SBC, " SB ", SB, " SABC ", SABC)
+
     return SAB + SBC - SB - SABC
 end
