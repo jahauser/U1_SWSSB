@@ -33,7 +33,7 @@ function initiate_data(_::DiagonalState, observables::Vector{Symbol}, L::Int, T:
     return data
 end
 
-function update_data(state::DiagonalState, observables::Vector{Symbol}, data::Dict{Symbol,Vector}, t::Int; r=2)
+function update_data(state::DiagonalState, observables::Vector{Symbol}, data::Dict{Symbol,Vector}, t::Int; rs=[1])
     ψ = state.mps
     L = length(ψ)
     # if :κ2_ratio in observables
@@ -89,7 +89,7 @@ end
 
 
 function circuit(state::DiagonalState, L::Int, T::Int, γ::Float64, λ::Float64; observables=Symbol[], terminal_observables=Symbol[],
-     PBC=false, cutoff=1E-8, maxdim=200, r=r)
+     PBC=false, cutoff=1E-8, maxdim=200, r=1)
 
     data = initiate_data(state, observables, L, T)
     data = update_data(state, observables, data, 1; r=r)
@@ -100,6 +100,10 @@ function circuit(state::DiagonalState, L::Int, T::Int, γ::Float64, λ::Float64;
     for t in 1:T
         state = imaginary_time_evolve(state, SWAP, γ, 1:2:L-1+PBC; cutoff=cutoff, maxdim=maxdim)
         state = imaginary_time_evolve(state, SWAP, γ, 2:2:L-1+PBC; cutoff=cutoff, maxdim=maxdim)
+        
+        # state = imaginary_time_evolve(state, SWAP, γ, 1:1:L-1+PBC; cutoff=cutoff, maxdim=maxdim)
+        # state = imaginary_time_evolve(state, SWAP, γ, reverse(1:1:L-1+PBC); cutoff=cutoff, maxdim=maxdim)
+
         state /= norm(state)
         truncate!(state; cutoff=cutoff, maxdim=maxdim)
         data = update_data(state, observables, data, 2t+1; r=r)
