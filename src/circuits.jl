@@ -87,13 +87,16 @@ function update_data(state::DiagonalState, observables::Vector{Symbol}, data::Di
     return data
 end
 
+function add_entry(full_data::Dict, new_data::Dict)
+    full_data = Dict([key => vcat(full_data[key], new_data[key]) for key in keys(full_data)])
+    return full_data
+end
 
-function circuit(state::DiagonalState, L::Int, T::Int, γ::Float64, λ::Float64; observables=Symbol[], terminal_observables=Symbol[],
+function circuit(state::DiagonalState, L::Int, T::Int, γ::Float64; observables=Symbol[], terminal_observables=Symbol[],
      PBC=false, cutoff=1E-8, maxdim=200, r=1)
 
     data = initiate_data(state, observables, L, T)
     data = update_data(state, observables, data, 1; r=r)
-    data = update_data(state, observables, data, 2; r=r)
 
     terminal_data = initiate_data(state, terminal_observables, L, 2)
 
@@ -127,30 +130,70 @@ function circuit(state::DiagonalState, L::Int, T::Int, γ::Float64, λ::Float64;
     return state, data, terminal_data
 end
 
-function circuit(state::DiagonalState, L::Int, T::Int, γ::Float64, λ::Float64, samples::Int; observables=Symbol[],
-    terminal_observables=Symbol[], PBC=false, cutoff=1E-8, maxdim=200, r=r)
 
-    full_data = initiate_data(state, observables, L, T)
-    full_terminal_data = initiate_data(state, terminal_observables, L, 2)
+# function circuit(state::DiagonalState, L::Int, T::Int, γ::Float64, λ::Float64; observables=Symbol[], terminal_observables=Symbol[],
+#      PBC=false, cutoff=1E-8, maxdim=200, r=1)
 
-    for _ in 1:samples
-        _, data, terminal_data = circuit(state, L, T, γ, λ; observables=observables, PBC=PBC, cutoff=cutoff, maxdim=maxdim, r=r)
-        for observable in observables
-            full_data[observable] .+= data[observable]
-        end
-        for observable in terminal_observables
-            full_terminal_data[observable] .+= terminal_data[observable]
-        end
-    end
+#     data = initiate_data(state, observables, L, T)
+#     data = update_data(state, observables, data, 1; r=r)
+#     data = update_data(state, observables, data, 2; r=r)
 
-    for observable in observables
-        full_data[observable] /= samples
-    end
-    for observable in terminal_observables
-        full_terminal_data[observable] /= samples
-    end
-    return full_data, full_terminal_data
-end
+#     terminal_data = initiate_data(state, terminal_observables, L, 2)
+
+#     for t in 1:T
+#         state = imaginary_time_evolve(state, SWAP, γ, 1:2:L-1+PBC; cutoff=cutoff, maxdim=maxdim)
+#         state = imaginary_time_evolve(state, SWAP, γ, 2:2:L-1+PBC; cutoff=cutoff, maxdim=maxdim)
+        
+#         # state = imaginary_time_evolve(state, SWAP, γ, 1:1:L-1+PBC; cutoff=cutoff, maxdim=maxdim)
+#         # state = imaginary_time_evolve(state, SWAP, γ, reverse(1:1:L-1+PBC); cutoff=cutoff, maxdim=maxdim)
+
+#         state /= norm(state)
+#         truncate!(state; cutoff=cutoff, maxdim=maxdim)
+#         data = update_data(state, observables, data, 2t+1; r=r)
+
+#         if t == T
+#             terminal_data = update_data(state, terminal_observables, terminal_data, 1; r=r)
+#         end
+
+#         if λ > 0.0
+#             state, _, _ = measure(state, PauliZ, λ, 1:L; cutoff=cutoff, maxdim=maxdim)
+#             state /= norm(state)
+#             truncate!(state; cutoff=cutoff, maxdim=maxdim)
+#             data = update_data(state, observables, data, 2t+2; r=r)
+#         end
+
+#         if t == T
+#             terminal_data = update_data(state, terminal_observables, terminal_data, 2; r=r)
+#         end
+#     end
+
+#     return state, data, terminal_data
+# end
+
+# function circuit(state::DiagonalState, L::Int, T::Int, γ::Float64, λ::Float64, samples::Int; observables=Symbol[],
+#     terminal_observables=Symbol[], PBC=false, cutoff=1E-8, maxdim=200, r=r)
+
+#     full_data = initiate_data(state, observables, L, T)
+#     full_terminal_data = initiate_data(state, terminal_observables, L, 2)
+
+#     for _ in 1:samples
+#         _, data, terminal_data = circuit(state, L, T, γ, λ; observables=observables, PBC=PBC, cutoff=cutoff, maxdim=maxdim, r=r)
+#         for observable in observables
+#             full_data[observable] .+= data[observable]
+#         end
+#         for observable in terminal_observables
+#             full_terminal_data[observable] .+= terminal_data[observable]
+#         end
+#     end
+
+#     for observable in observables
+#         full_data[observable] /= samples
+#     end
+#     for observable in terminal_observables
+#         full_terminal_data[observable] /= samples
+#     end
+#     return full_data, full_terminal_data
+# end
 
 
 # function MPS_initiate_data(observables::Vector{Symbol}, L::Int, T::Int)
