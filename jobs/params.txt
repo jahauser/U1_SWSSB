@@ -1,8 +1,75 @@
---L 16 --T 32 --p 0.1
---L 32 --T 64 --p 0.1
---L 64 --T 128 --p 0.1
---L 128 --T 256 --p 0.1
---L 256 --T 512 --p 0.1
---L 512 --T 1024 --p 0.1
---L 1024 --T 2048 --p 0.1
---L 2048 --T 4096 --p 0.1
+--L 4 --T 40 --p 0.1 --mode renyi2 --t 1
+--L 8 --T 80 --p 0.1 --mode renyi2 --t 1
+--L 16 --T 160 --p 0.1 --mode renyi2 --t 1
+--L 32 --T 320 --p 0.1 --mode renyi2 --t 1
+--L 64 --T 640 --p 0.1 --mode renyi2 --t 1
+--L 128 --T 1280 --p 0.1 --mode renyi2 --t 1
+--L 256 --T 2560 --p 0.1 --mode renyi2 --t 1
+--L 512 --T 5120 --p 0.1 --mode renyi2 --t 1
+--L 1024 --T 10240 --p 0.1 --mode renyi2 --t 1
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 0
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 4
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 8
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 12
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 16
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 20
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 24
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 28
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 32
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 36
+--L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 40
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 0
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 8
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 16
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 24
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 32
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 40
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 48
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 56
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 64
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 72
+--L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 80
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 0
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 16
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 32
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 48
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 64
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 80
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 96
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 112
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 128
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 144
+--L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 160
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 0
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 32
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 64
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 96
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 128
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 160
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 192
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 224
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 256
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 288
+--L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 320
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 0
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 64
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 128
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 192
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 256
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 320
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 384
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 448
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 512
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 576
+--L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 640
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 0
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 128
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 256
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 384
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 512
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 640
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 768
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 896
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 1024
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 1152
+--L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 1280
