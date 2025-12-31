@@ -50,11 +50,11 @@ ts_renyi1_sampled(L) = 0:L:T_of_L(L)
 # e.g. fill(100, 10) => 10 repeats with --samples 100
 function samples_renyi1_sampled(L)
     if L ≤ 32
-        return fill(5000, 1)
+        return fill(5000, 2)
     elseif L == 64
-        return fill(1000, 5)
+        return fill(1000, 10)
     elseif L == 128
-        return fill(100, 10)
+        return fill(100, 100)
     else
         return Int[]
     end
@@ -65,27 +65,27 @@ end
 # -------------------------------
 lines = String[]
 
-# renyi2: 9 jobs
-for L in Ls_renyi2
-    for t in ts_renyi2(L)  # typically [1]
-        push!(lines, format_line(L=L, T=T_of_L(L), p=p, mode="renyi2", t=t))
-    end
-end
-
-# renyi1_TCI: 60 jobs
-for L in Ls_renyi1_others
-    for t in ts_renyi1_TCI(L)
-        push!(lines, format_line(L=L, T=T_of_L(L), p=p, mode="renyi1_TCI", t=t))
-    end
-end
-
-# renyi1_sampled (samples list acts as repeats): 60*16=960
-# for L in Ls_renyi1_others
-#     ts = ts_renyi1_sampled(L)
-#     ss = samples_renyi1_sampled(L)
-#     for t in ts, s in ss
-#         push!(lines, format_line(L=L, T=T_of_L(L), p=p, mode="renyi1_sampled", t=t, samples=s))
+# # renyi2: 9 jobs
+# for L in Ls_renyi2
+#     for t in ts_renyi2(L)  # typically [1]
+#         push!(lines, format_line(L=L, T=T_of_L(L), p=p, mode="renyi2", t=t))
 #     end
 # end
+
+# # renyi1_TCI: 60 jobs
+# for L in Ls_renyi1_others
+#     for t in ts_renyi1_TCI(L)
+#         push!(lines, format_line(L=L, T=T_of_L(L), p=p, mode="renyi1_TCI", t=t))
+#     end
+# end
+
+# renyi1_sampled (samples list acts as repeats): 60*16=960
+for L in Ls_renyi1_others
+    ts = ts_renyi1_sampled(L)
+    ss = samples_renyi1_sampled(L)
+    for t in ts, s in ss
+        push!(lines, format_line(L=L, T=T_of_L(L), p=p, mode="renyi1_sampled", t=t, samples=s))
+    end
+end
 
 write_params(lines; append=append)

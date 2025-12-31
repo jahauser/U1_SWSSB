@@ -62,7 +62,7 @@ function χ1_sweep_sample(state::DiagonalStateMPS; samples=1)
             ms2[i+1:j-1] = ms[i:j-2]
             ms2[j] = true
             ms2[j+1:L] = ms[j-1:end]
-            total_prob2 = get_prob_vec(state.mps, ms2)
+            total_prob2 = get_prob_vec(state.mps, .!ms2)
             # total_prob2 = 1.0
 
             sum_corr += exp(logprob1) * sqrt(total_prob2 / total_prob1)

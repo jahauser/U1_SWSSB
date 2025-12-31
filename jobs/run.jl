@@ -7,17 +7,10 @@ using ITensorMPS
 using LinearAlgebra
 
 const ROOT = normpath(joinpath(@__DIR__, ".."))
-include(joinpath(ROOT, "qcsb", "MPS", "states.jl"))
-include(joinpath(ROOT, "qcsb", "MPS", "state_constructors.jl"))
-include(joinpath(ROOT, "qcsb", "MPS", "dynamics.jl"))
-include(joinpath(ROOT, "qcsb", "MPS", "tools.jl"))
-include(joinpath(ROOT, "qcsb", "MPS", "measurements.jl"))
-include(joinpath(ROOT, "qcsb", "MPS", "entropies.jl"))
+include(joinpath(ROOT, "QCSB", "QCSB.jl"))
 
-State = StateMPS
-include(joinpath(ROOT, "qcsb", "src", "global", "states.jl"))
-
-include(joinpath(ROOT, "renyi2_src", "circuit.jl"))
+include(joinpath(ROOT, "src", "circuit.jl"))
+include(joinpath(ROOT, "src", "tci.jl"))
 
 
 function build_parser()

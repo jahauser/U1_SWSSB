@@ -1,4 +1,4 @@
-using ITensorMPS, ITensors, LinearAlgebra, Random#,  QuanticsTCI
+using ITensorMPS, ITensors, LinearAlgebra, Random
 import TensorCrossInterpolation as TCI
 import TensorCrossInterpolation: GlobalPivotSearchInput, MultiIndex, crossinterpolate2
 
