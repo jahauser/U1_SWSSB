@@ -65,7 +65,7 @@ function main(args)
 
     if mode == "renyi2"
         observables = [:κ2, :inner_κ2, :κ2_corrs]
-        data_ts = vcat([0], 1:10:T)
+        data_ts = collect(0:10:T)
     elseif mode == "renyi1_TCI"
         observables = [:κ1_TCI, :inner_κ1_TCI, :κ1_corrs_TCI]
         data_ts = [t]

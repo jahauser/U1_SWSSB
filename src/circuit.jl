@@ -168,3 +168,37 @@ function circuit(state::DiagonalStateMPS, L::Int, T::Int, p::Float64; observable
 
     return state, data
 end
+
+function sample_entropy_circuit(state::DiagonalStateMPS, L::Int, T::Int, p::Float64; observables=Symbol[], cutoff=1E-8, maxdim=200,
+                 renyi1_samples=1, data_ts=0:T)
+    SWAPn1 = decoherence_layer(state, SWAP, p, 1:2:L-1)
+    SWAPn2 = decoherence_layer(state, SWAP, p, 2:2:L-1)
+
+    data = initiate_data(state, observables, L, length(data_ts))
+
+    if 0 in data_ts
+        data = update_data(state, observables, data, 1; renyi1_samples=renyi1_samples)
+        data_counter = 2
+    else 
+        data_counter = 1
+    end
+
+
+    for t in 1:T
+        state = apply(SWAPn1, state; cutoff=cutoff, maxdim=maxdim)
+        state = apply(SWAPn2, state; cutoff=cutoff, maxdim=maxdim)
+        state = normalize(state)
+        truncate!(state; cutoff=cutoff, maxdim=maxdim)
+
+        if t in data_ts
+            data = update_data(state, observables, data, data_counter; renyi1_samples=renyi1_samples)
+            data_counter += 1
+        end
+
+        if data_counter > length(data_ts)
+            break
+        end
+    end
+
+    return state, data
+end

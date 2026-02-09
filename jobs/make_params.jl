@@ -43,8 +43,8 @@ Ls_renyi1_others = 4 .* (2 .^ (0:5))  # 4 .. 128
 ts_renyi2(L) = [1]
 
 
-ts_renyi1_TCI(L) = 0:L:T_of_L(L)
-ts_renyi1_sampled(L) = 0:L:T_of_L(L)
+ts_renyi1_TCI(L) = 0:8:L
+ts_renyi1_sampled(L) = 0:8:L
 
 # samples list acts as repeats, as a FUNCTION of L
 # e.g. fill(100, 10) => 10 repeats with --samples 100
@@ -65,7 +65,7 @@ end
 # -------------------------------
 lines = String[]
 
-# # renyi2: 9 jobs
+# renyi2: 9 jobs
 # for L in Ls_renyi2
 #     for t in ts_renyi2(L)  # typically [1]
 #         push!(lines, format_line(L=L, T=T_of_L(L), p=p, mode="renyi2", t=t))
@@ -73,13 +73,13 @@ lines = String[]
 # end
 
 # # renyi1_TCI: 60 jobs
-# for L in Ls_renyi1_others
-#     for t in ts_renyi1_TCI(L)
-#         push!(lines, format_line(L=L, T=T_of_L(L), p=p, mode="renyi1_TCI", t=t))
-#     end
-# end
+for L in Ls_renyi1_others
+    for t in ts_renyi1_TCI(L)
+        push!(lines, format_line(L=L, T=T_of_L(L), p=p, mode="renyi1_TCI", t=t))
+    end
+end
 
-# renyi1_sampled (samples list acts as repeats): 60*16=960
+# # renyi1_sampled (samples list acts as repeats): 60*16=960
 for L in Ls_renyi1_others
     ts = ts_renyi1_sampled(L)
     ss = samples_renyi1_sampled(L)
