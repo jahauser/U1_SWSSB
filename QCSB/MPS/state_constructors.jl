@@ -42,25 +42,25 @@ function block_pattern(L::Int, a::Int)
     return v[trim+1:end-trim]
 end
 
-function block_state(::Type{PureStateMPS}, L::Int, a::Int; conserve_qns=false)
+function block_state(::Type{PureStateMPS}, L::Int, a::Int; conserve_number=false)
     pattern = block_pattern(L, a)
-    sites = siteinds("Qubit", L; conserve_qns=conserve_qns)
+    sites = siteinds("Qubit", L; conserve_number=conserve_number)
     ψ = MPS(sites, i -> pattern[i] == 0 ? "0" : "1")
     return PureStateMPS(ψ)
 end
 
-function block_state(::Type{DiagonalStateMPS}, L::Int, a::Int; conserve_qns=false)
+function block_state(::Type{DiagonalStateMPS}, L::Int, a::Int; conserve_number=false)
     pattern = block_pattern(L, a)
-    sites = siteinds("Qubit", L; conserve_qns=conserve_qns)
+    sites = siteinds("Qubit", L; conserve_number=conserve_number)
     ψ = MPS(sites, i -> pattern[i] == 0 ? "0" : "1")
     return DiagonalStateMPS(ψ)
 end
 
-function block_state(::Type{MixedStateMPS}, L::Int, a::Int; conserve_qns=false)
+function block_state(::Type{MixedStateMPS}, L::Int, a::Int; conserve_number=false)
     pattern = repeat(block_pattern(L, a), inner=2)
-    sites = siteinds("Qubit", 2L; conserve_qns=conserve_qns)
+    sites = siteinds("Qubit", 2L; conserve_number=conserve_number)
     ψ = MPS(sites, i -> pattern[i] == 0 ? "0" : "1")
     return MixedStateMPS(ψ)
 end
 
-neel_state(::Type{T}, L::Int; conserve_qns=false) where T<:StateMPS = block_state(T, L, 1; conserve_qns=conserve_qns)
+neel_state(::Type{T}, L::Int; conserve_number=false) where T<:StateMPS = block_state(T, L, 1; conserve_number=conserve_number)

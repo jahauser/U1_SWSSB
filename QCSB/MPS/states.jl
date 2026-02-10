@@ -30,18 +30,60 @@ end
 #     return inner(MPS(sites, i -> "+"), ψ)*2^(L/2)
 # end
 
-function norm(state::DiagonalStateMPS)
-    ψ = state.mps
+# function norm(state::DiagonalStateMPS)
+#     ψ = state.mps
+#     sites = siteinds(ψ)
+#     L = length(sites)
+#     return exp(loginner(MPS(sites, i -> "+"), ψ))*2^(L/2)
+# end
+
+# function 
+
+function traceright(state::DiagonalStateMPS, R::Int)
+    ψ = copy(state.mps)
     sites = siteinds(ψ)
     L = length(sites)
-    return exp(loginner(MPS(sites, i -> "+"), ψ))*2^(L/2)
+
+    if R > L
+        return state, 0.0
+    end
+
+    mats = Vector{ITensor}(undef, L-R+1)
+    for j in R:L
+        s = sites[j]
+        mats[j-R+1] = dag(ITensors.state(s, "0") + ITensors.state(s, "1")) * ψ[j]
+    end
+
+    v₀ = mats[end]
+    logscale = 0.0
+    for j in 1:(L-R)
+        v₁ = mats[end-j] * v₀
+        n = norm(v₁)
+        logscale += log(n)
+        v₀ = v₁ / n
+    end
+
+    if R == 1
+        return nothing, logscale + log(Complex(Array(v₀)[]))
+    else
+    
+        ψ[R-1] *= v₀
+
+        s = exp(+ logscale / (L - R + 1))
+        for j in 1:(L-R+1)
+            ψ[j] *= s
+        end
+    return DiagonalStateMPS(MPS(ψ[1:R-1])), logscale
+    end
 end
 
 function normalize(state::DiagonalStateMPS)
     ψ = state.mps
     sites = siteinds(ψ)
     L = length(sites)
-    λ = (loginner(MPS(sites, i -> "+"), ψ) + (L/2)*log(2)) / L
+    _, λ = traceright(state, 1)
+    λ /= L
+    
     s = exp(-λ)
     for j in 1:L
         ψ[j] *= s

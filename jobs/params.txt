@@ -1,1849 +1,210 @@
---L 4 --T 40 --p 0.1 --mode renyi1_TCI --t 0
---L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 0
---L 8 --T 80 --p 0.1 --mode renyi1_TCI --t 8
---L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 0
---L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 8
---L 16 --T 160 --p 0.1 --mode renyi1_TCI --t 16
---L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 0
---L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 8
---L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 16
---L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 24
---L 32 --T 320 --p 0.1 --mode renyi1_TCI --t 32
---L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 0
---L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 8
---L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 16
---L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 24
---L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 32
---L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 40
---L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 48
---L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 56
---L 64 --T 640 --p 0.1 --mode renyi1_TCI --t 64
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 0
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 8
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 16
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 24
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 32
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 40
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 48
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 56
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 64
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 72
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 80
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 88
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 96
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 104
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 112
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 120
---L 128 --T 1280 --p 0.1 --mode renyi1_TCI --t 128
---L 4 --T 40 --p 0.1 --mode renyi1_sampled --t 0 --samples 5000
---L 4 --T 40 --p 0.1 --mode renyi1_sampled --t 0 --samples 5000
---L 8 --T 80 --p 0.1 --mode renyi1_sampled --t 0 --samples 5000
---L 8 --T 80 --p 0.1 --mode renyi1_sampled --t 0 --samples 5000
---L 8 --T 80 --p 0.1 --mode renyi1_sampled --t 8 --samples 5000
---L 8 --T 80 --p 0.1 --mode renyi1_sampled --t 8 --samples 5000
---L 16 --T 160 --p 0.1 --mode renyi1_sampled --t 0 --samples 5000
---L 16 --T 160 --p 0.1 --mode renyi1_sampled --t 0 --samples 5000
---L 16 --T 160 --p 0.1 --mode renyi1_sampled --t 8 --samples 5000
---L 16 --T 160 --p 0.1 --mode renyi1_sampled --t 8 --samples 5000
---L 16 --T 160 --p 0.1 --mode renyi1_sampled --t 16 --samples 5000
---L 16 --T 160 --p 0.1 --mode renyi1_sampled --t 16 --samples 5000
---L 32 --T 320 --p 0.1 --mode renyi1_sampled --t 0 --samples 5000
---L 32 --T 320 --p 0.1 --mode renyi1_sampled --t 0 --samples 5000
---L 32 --T 320 --p 0.1 --mode renyi1_sampled --t 8 --samples 5000
---L 32 --T 320 --p 0.1 --mode renyi1_sampled --t 8 --samples 5000
---L 32 --T 320 --p 0.1 --mode renyi1_sampled --t 16 --samples 5000
---L 32 --T 320 --p 0.1 --mode renyi1_sampled --t 16 --samples 5000
---L 32 --T 320 --p 0.1 --mode renyi1_sampled --t 24 --samples 5000
---L 32 --T 320 --p 0.1 --mode renyi1_sampled --t 24 --samples 5000
---L 32 --T 320 --p 0.1 --mode renyi1_sampled --t 32 --samples 5000
---L 32 --T 320 --p 0.1 --mode renyi1_sampled --t 32 --samples 5000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 0 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 0 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 0 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 0 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 0 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 0 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 0 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 0 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 0 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 0 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 8 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 8 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 8 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 8 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 8 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 8 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 8 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 8 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 8 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 8 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 16 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 16 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 16 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 16 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 16 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 16 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 16 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 16 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 16 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 16 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 24 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 24 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 24 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 24 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 24 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 24 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 24 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 24 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 24 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 24 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 32 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 32 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 32 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 32 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 32 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 32 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 32 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 32 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 32 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 32 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 40 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 40 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 40 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 40 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 40 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 40 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 40 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 40 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 40 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 40 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 48 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 48 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 48 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 48 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 48 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 48 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 48 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 48 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 48 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 48 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 56 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 56 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 56 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 56 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 56 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 56 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 56 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 56 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 56 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 56 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 64 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 64 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 64 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 64 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 64 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 64 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 64 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 64 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 64 --samples 1000
---L 64 --T 640 --p 0.1 --mode renyi1_sampled --t 64 --samples 1000
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 0 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 8 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 16 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 24 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 32 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 40 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 48 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 56 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 64 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 72 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 80 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 88 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 96 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 104 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 112 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 120 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
---L 128 --T 1280 --p 0.1 --mode renyi1_sampled --t 128 --samples 100
+--L 200 --T 1000 --gamma 0.1 --B 0 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 5 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 10 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 15 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 20 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 25 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 30 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 35 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 40 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 45 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 50 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 55 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 60 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 65 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 70 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 75 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 80 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 85 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 90 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 95 --samples 10000
+--L 200 --T 1000 --gamma 0.1 --B 100 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 0 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 5 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 10 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 15 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 20 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 25 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 30 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 35 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 40 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 45 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 50 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 55 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 60 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 65 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 70 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 75 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 80 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 85 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 90 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 95 --samples 10000
+--L 200 --T 2000 --gamma 0.1 --B 100 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 0 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 5 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 10 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 15 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 20 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 25 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 30 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 35 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 40 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 45 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 50 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 55 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 60 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 65 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 70 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 75 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 80 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 85 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 90 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 95 --samples 10000
+--L 200 --T 3000 --gamma 0.1 --B 100 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 0 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 5 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 10 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 15 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 20 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 25 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 30 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 35 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 40 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 45 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 50 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 55 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 60 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 65 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 70 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 75 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 80 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 85 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 90 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 95 --samples 10000
+--L 200 --T 4000 --gamma 0.1 --B 100 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 0 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 5 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 10 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 15 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 20 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 25 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 30 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 35 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 40 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 45 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 50 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 55 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 60 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 65 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 70 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 75 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 80 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 85 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 90 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 95 --samples 10000
+--L 200 --T 5000 --gamma 0.1 --B 100 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 0 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 5 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 10 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 15 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 20 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 25 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 30 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 35 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 40 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 45 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 50 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 55 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 60 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 65 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 70 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 75 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 80 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 85 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 90 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 95 --samples 10000
+--L 200 --T 6000 --gamma 0.1 --B 100 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 0 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 5 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 10 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 15 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 20 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 25 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 30 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 35 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 40 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 45 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 50 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 55 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 60 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 65 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 70 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 75 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 80 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 85 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 90 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 95 --samples 10000
+--L 200 --T 7000 --gamma 0.1 --B 100 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 0 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 5 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 10 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 15 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 20 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 25 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 30 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 35 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 40 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 45 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 50 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 55 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 60 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 65 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 70 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 75 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 80 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 85 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 90 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 95 --samples 10000
+--L 200 --T 8000 --gamma 0.1 --B 100 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 0 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 5 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 10 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 15 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 20 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 25 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 30 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 35 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 40 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 45 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 50 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 55 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 60 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 65 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 70 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 75 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 80 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 85 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 90 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 95 --samples 10000
+--L 200 --T 9000 --gamma 0.1 --B 100 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 0 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 5 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 10 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 15 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 20 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 25 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 30 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 35 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 40 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 45 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 50 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 55 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 60 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 65 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 70 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 75 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 80 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 85 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 90 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 95 --samples 10000
+--L 200 --T 10000 --gamma 0.1 --B 100 --samples 10000
