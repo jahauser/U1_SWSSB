@@ -31,10 +31,10 @@ end
 append  = false
 
 L       = 200
-Ts      = 1000:1000:10000
+Ts      = union(10:10:100, 1000:1000:10000)
 gamma   = 0.1
 Bs      = 0:5:100
-samples = 10000
+samples = 1000
 
 # -------------------------------
 # Generate params.txt
