@@ -31,17 +31,44 @@ end
 append  = false
 
 L       = 200
-Ts      = union(10:10:100, 1000:1000:10000)
+Ts      = union(10:10:100)
 gamma   = 0.1
-Bs      = 0:5:100
+Bs      = union(0:5:95, [99])
 samples = 1000
+
+num_repeats = Dict(
+    0 => 8,
+    5 => 8,
+    10 => 8,
+    15 => 8,
+    20 => 8,
+    25 => 8,
+    30 => 8,
+    35 => 8,
+    40 => 8,
+    45 => 8,
+    50 => 8,
+    55 => 8,
+    60 => 8,
+    65 => 8,
+    70 => 8,
+    75 => 8,
+    80 => 8,
+    85 => 8,
+    90 => 8,
+    95 => 8,
+    99 => 10, # more repeats for harder cases
+)
 
 # -------------------------------
 # Generate params.txt
 # -------------------------------
 lines = String[]
+
 for T in Ts, B in Bs
-    push!(lines, format_line(L=L, T=T, gamma=gamma, B=B, samples=samples))
+    for repeats in 1:num_repeats[B]
+        push!(lines, format_line(L=L, T=T, gamma=gamma, B=B, samples=samples))
+    end
 end
 
 write_params(lines; append=append)
